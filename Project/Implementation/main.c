@@ -63,7 +63,7 @@ void calculator_menu(void)
     switch(calculator_operation)
     {
         case ADD:
-            printf("\n\t%d + %d = %d\nEnter to continue", 
+            printf("\n\t%f + %f = %d\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             add(calculator_operand1, calculator_operand2));
@@ -72,7 +72,7 @@ void calculator_menu(void)
             getchar();
             break;
         case SUBTRACT:
-            printf("\n\t%d - %d = %d\nEnter to continue", 
+            printf("\n\t%f - %f = %d\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             subtract(calculator_operand1, calculator_operand2));
@@ -81,7 +81,7 @@ void calculator_menu(void)
             getchar();
             break;
         case MULTIPLY:
-            printf("\n\t%d * %d = %d\nEnter to continue", 
+            printf("\n\t%f * %f = %d\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             multiply(calculator_operand1, calculator_operand2));
@@ -90,7 +90,7 @@ void calculator_menu(void)
             getchar();
             break;
         case DIVIDE:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
+            printf("\n\t%f / %f = %d\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             divide(calculator_operand1, calculator_operand2));
@@ -116,7 +116,7 @@ void calculator_menu(void)
             getchar();
             break;
 		case POWER:
-            printf("\n\t%d ^ %d = %d\nEnter to continue", 
+            printf("\n\t%f ^ %d = %f\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             power(calculator_operand1, calculator_operand2));
@@ -125,7 +125,7 @@ void calculator_menu(void)
             getchar();
             break;
 		case ANTILOG:
-            printf("\n\tantilog(%d) = %d\nEnter to continue", 
+            printf("\n\tantilog(%f) = %f\nEnter to continue", 
             calculator_operand1,
             antilog(calculator_operand1));
             
@@ -133,7 +133,7 @@ void calculator_menu(void)
             getchar();
             break;
 		case COMMONLOG:
-            printf("\n\tlog(%d) = %d\nEnter to continue", 
+            printf("\n\tlog(%f) = %f\nEnter to continue", 
             calculator_operand1, 
             base10log(calculator_operand1));
             
@@ -141,7 +141,7 @@ void calculator_menu(void)
             getchar();
             break;
 		case NATURALLOG:
-            printf("\n\tln(%d) = %d\nEnter to continue", 
+            printf("\n\tln(%f) = %f\nEnter to continue", 
             calculator_operand1,
             add(calculator_operand1));
             
@@ -149,7 +149,7 @@ void calculator_menu(void)
             getchar();
             break;
 		case MODULUS:
-            printf("\n\t|%d| = %d\nEnter to continue", 
+            printf("\n\t|%f| = %f\nEnter to continue", 
             calculator_operand1,
             modulus(calculator_operand1));
             
@@ -157,7 +157,7 @@ void calculator_menu(void)
             getchar();
             break;
 		case INVERSE:
-            printf("\n\t%d ^ -1 = %d\nEnter to continue", 
+            printf("\n\t%f ^ -1 = %f\nEnter to continue", 
             calculator_operand1,
             inverse(calculator_operand1));
             
@@ -165,7 +165,7 @@ void calculator_menu(void)
             getchar();
             break;
 		case ROOT:
-            printf("\n\tSquare Root of %d = %d\nEnter to continue", 
+            printf("\n\tSquare Root of %f = %f\nEnter to continue", 
             calculator_operand1,
             root(calculator_operand1));
             
@@ -173,7 +173,7 @@ void calculator_menu(void)
             getchar();
             break;
 		case SQUARE:
-            printf("\n\t%d ^ 2 = %d\nEnter to continue", 
+            printf("\n\t%f ^ 2 = %f\nEnter to continue", 
             calculator_operand1,
             square(calculator_operand1));
             
@@ -181,7 +181,7 @@ void calculator_menu(void)
             getchar();
             break;
 		case CUBE:
-            printf("\n\t%d ^ 3 = %d\nEnter to continue", 
+            printf("\n\t%f ^ 3 = %f\nEnter to continue", 
             calculator_operand1, 
             cube(calculator_operand1));
             
