@@ -79,7 +79,7 @@ float inverse(float operand1)
 	return 1/operand1;
 }
 
-float root(operand1)
+float root(float operand1)
 {
 	if(operand1<0)
 	return 0;
@@ -87,12 +87,12 @@ float root(operand1)
 	return sqrt(operand1);
 }
 
-float square(operand1)
+float square(float operand1)
 {
 	return operand1*operand1;
 }
 
-float cube(operand1)
+float cube(float operand1)
 {
 	return operand1*operand1*operand1;
 }
