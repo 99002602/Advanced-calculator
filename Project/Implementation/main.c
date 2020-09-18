@@ -99,18 +99,18 @@ void calculator_menu(void)
             getchar();
             break;
 		case MODULO:
-            printf("\n\t%d % %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            modulo(calculator_operand1, calculator_operand2));
+            printf("\n\t%d %% %d = %d\nEnter to continue", 
+            int(calculator_operand1), 
+            int(calculator_operand2),
+            modulo(int(calculator_operand1), int(calculator_operand2)));
             
             __fpurge(stdin);
             getchar();
             break;
 		case FACTORIAL:
             printf("\n\t%d! = %d\nEnter to continue", 
-            calculator_operand1,
-            factorial(calculator_operand1));
+            int(calculator_operand1),
+            factorial(int(calculator_operand1)));
             
             __fpurge(stdin);
             getchar();
