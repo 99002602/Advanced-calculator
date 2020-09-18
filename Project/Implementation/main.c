@@ -9,8 +9,8 @@
 unsigned int calculator_operation = 0;
 
 /* Operands on which calculation is performed */
-float calculator_operand1 = 0;
-float calculator_operand2 = 0;
+int calculator_operand1 = 0;
+int calculator_operand2 = 0;
 
 /* Valid operations */
 enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, MODULO, FACTORIAL, POWER, ANTILOG, COMMONLOG, NATURALLOG, MODULUS, INVERSE, ROOT, SQUARE, CUBE, EXIT };
@@ -100,17 +100,17 @@ void calculator_menu(void)
             break;
 		case MODULO:
             printf("\n\t%d %% %d = %d\nEnter to continue", 
-            int(calculator_operand1), 
-            int(calculator_operand2),
-            modulo(int(calculator_operand1), int(calculator_operand2)));
+            icalculator_operand1), 
+            calculator_operand2),
+            modulo(calculator_operand1, calculator_operand2));
             
             __fpurge(stdin);
             getchar();
             break;
 		case FACTORIAL:
             printf("\n\t%d! = %d\nEnter to continue", 
-            int(calculator_operand1),
-            factorial(int(calculator_operand1)));
+            calculator_operand1,
+            factorial(calculator_operand1));
             
             __fpurge(stdin);
             getchar();
