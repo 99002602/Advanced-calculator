@@ -122,7 +122,7 @@ float inverse(float operand1);
 * @return floating point value of square root of operand1
 * @note returns 0 for negative numbers
 */
-float root(operand1);
+float root(float operand1);
 
 
 /**
@@ -130,7 +130,7 @@ float root(operand1);
 * @param[in] operand1
 * @return floating point value of square of operand1
 */
-float square(operand1);
+float square(float operand1);
 
 
 /**
@@ -138,5 +138,5 @@ float square(operand1);
 * @param[in] operand1
 * @return floating point value of cube of operand1
 */
-float cube(operand1);
+float cube(float operand1);
 #endif  /* #define __ADVANCED_CALCULATOR_H__ */
