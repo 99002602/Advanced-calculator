@@ -1,5 +1,5 @@
   # Name of the project
-PROJECT_NAME = Advanced Calculator
+PROJECT_NAME = Advanced_Calculator
 
 # Output directory
 BUILD = build
