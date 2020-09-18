@@ -50,9 +50,9 @@ void calculator_menu(void)
 
     if(INVALID != valid_operation(calculator_operation))
     {
-        printf("\n\tEnter your Numbers with space between them\n");
+        printf("\n\tEnter your Numbers with space between them. For MODULO, enter 0 two times and enter your integers. For FACTORIAL, enter 0 two times, followed by your integer and a 0 again\n");
         __fpurge(stdin);
-        scanf("%f %f", &calculator_operand1, &calculator_operand2);
+        scanf("%f %f %d %d", &calculator_operand1, &calculator_operand2, &calculator_operand3, &calculator_operand4);
     }
     else
     {
