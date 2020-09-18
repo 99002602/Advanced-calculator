@@ -63,7 +63,7 @@ void calculator_menu(void)
     switch(calculator_operation)
     {
         case ADD:
-            printf("\n\t%f + %f = %d\nEnter to continue", 
+            printf("\n\t%f + %f = %f\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             add(calculator_operand1, calculator_operand2));
@@ -72,7 +72,7 @@ void calculator_menu(void)
             getchar();
             break;
         case SUBTRACT:
-            printf("\n\t%f - %f = %d\nEnter to continue", 
+            printf("\n\t%f - %f = %f\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             subtract(calculator_operand1, calculator_operand2));
@@ -81,7 +81,7 @@ void calculator_menu(void)
             getchar();
             break;
         case MULTIPLY:
-            printf("\n\t%f * %f = %d\nEnter to continue", 
+            printf("\n\t%f * %f = %f\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             multiply(calculator_operand1, calculator_operand2));
@@ -90,7 +90,7 @@ void calculator_menu(void)
             getchar();
             break;
         case DIVIDE:
-            printf("\n\t%f / %f = %d\nEnter to continue", 
+            printf("\n\t%f / %f = %f\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             divide(calculator_operand1, calculator_operand2));
@@ -116,7 +116,7 @@ void calculator_menu(void)
             getchar();
             break;
 		case POWER:
-            printf("\n\t%f ^ %d = %f\nEnter to continue", 
+            printf("\n\t%f ^ %f = %f\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             power(calculator_operand1, calculator_operand2));
@@ -143,7 +143,7 @@ void calculator_menu(void)
 		case NATURALLOG:
             printf("\n\tln(%f) = %f\nEnter to continue", 
             calculator_operand1,
-            add(calculator_operand1));
+            naturallog(calculator_operand1));
             
             __fpurge(stdin);
             getchar();
