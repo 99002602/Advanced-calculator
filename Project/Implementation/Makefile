@@ -22,6 +22,8 @@ PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 # Default target built
 $(PROJECT_NAME):all
 
+# Run the target even if the matching name exists
+.PHONY: run clean test  doc all
 
 all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out -lm
@@ -34,7 +36,7 @@ run:$(PROJECT_NAME)
 # Build and run the unit tests
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
-	./$(TEST_OUTPUT) -lm
+	./$(TEST_OUTPUT)
 
 
 # Create new build folder if not present
