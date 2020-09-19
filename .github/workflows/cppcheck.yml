@@ -12,4 +12,4 @@ jobs:
       - name: Install cppcheck
         run: sudo apt-get -y install cppcheck
       - name: Cppcheck code
-        run: cppcheck Project/Implementation
+        run: cppcheck Project/3. Implementation
