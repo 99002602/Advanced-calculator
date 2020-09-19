@@ -16,6 +16,6 @@ jobs:
     - name: Install Cunit
       run: sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: install math library
-      run:  sudo apt-get install -y libmath-libm-perl 
+      run: sudo apt-get install -y libmath-libm-perl 
     - name: make test
       run:  make test -C Project/Implementation/
