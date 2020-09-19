@@ -10,7 +10,7 @@ src/advanced_calculator.c\
 
 # All test source files
 TEST_SRC = src/advanced_calculator.c\
-test/test_advanced_calculator.c
+test/test_advanced_calculator.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out 
 
