@@ -67,13 +67,13 @@ int main() {
 void test_add(void) {
   CU_ASSERT(30 == add(10, 20));
   
-  CU_ASSERT(8250 == add(750, 7500));
+  CU_ASSERT(50 == add(20, 30));
 }
 
 void test_subtract(void) {
   CU_ASSERT(-3 == subtract(0, 3));
   
-  CU_ASSERT(100 == subtract(1000, 900));
+  CU_ASSERT(1 == subtract(10, 9));
 }
 
 void test_multiply(void) {
