@@ -17,3 +17,10 @@ This repository contains all the files associated with the project titled "Advan
 13. Square root
 14. Square
 15. Cube
+
+## Badges
+
+|Build| cppcheck | Unit Testing |
+|-----|----------|--------------|
+| ![C/C++ CI](https://github.com/99002602/Advanced-calculator/workflows/C/C++%20CI/badge.svg) | ![cppcheck-action](https://github.com/99002602/Advanced-calculator/workflows/cppcheck-action/badge.svg) | ![Unit testing](https://github.com/99002602/Advanced-calculator/workflows/Unit%20testing/badge.svg) | 
+
