@@ -40,7 +40,7 @@ void calculator_menu(void)
     printf("\n\tEnter your choice\n");
    
      __fpurge(stdin);
-    scanf("%d", &calculator_operation);
+    scanf("%u", &calculator_operation);
 
     if(EXIT == calculator_operation)
     {
