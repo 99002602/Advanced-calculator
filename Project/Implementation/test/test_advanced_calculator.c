@@ -2,8 +2,8 @@
 #include <CUnit/CUnit.h>
 
 /* Modify these two lines according to the project */
-#include <advanced_calculator.h>
 #include <math.h>
+#include <advanced_calculator.h>
 #define PROJECT_NAME "Calculator"
 
 /* Prototypes for all the test functions */
