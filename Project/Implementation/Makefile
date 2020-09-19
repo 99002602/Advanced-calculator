@@ -8,6 +8,11 @@ src/advanced_calculator.c\
 # All test source files
 TEST_SRC = src/advanced_calculator.c\
 test/test_advanced_calculator.c\
+
+# Create new build folder if not present
+$(BUILD):
+	mkdir build
+
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 # All include folders with header files
 INC	= -Iinc
@@ -28,6 +33,4 @@ test:$(BUILD)
 	./$(TEST_OUTPUT)
 
 
-# Create new build folder if not present
-$(BUILD):
-	mkdir build
+
