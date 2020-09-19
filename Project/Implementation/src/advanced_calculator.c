@@ -1,5 +1,5 @@
-#include <advanced_calculator.h>
 #include <math.h>
+#include <advanced_calculator.h>
 
 float add(float operand1, float operand2)
 {
