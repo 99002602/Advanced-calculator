@@ -67,104 +67,89 @@ int main() {
 void test_add(void) {
   CU_ASSERT(30 == add(10, 20));
   
-  /* Dummy fail*/
-  CU_ASSERT(1500 == add(750, 7500));
+  CU_ASSERT(8250 == add(750, 7500));
 }
 
 void test_subtract(void) {
   CU_ASSERT(-3 == subtract(0, 3));
   
-  /* Dummy fail*/
-  CU_ASSERT(1 == subtract(1000, 900));
+  CU_ASSERT(100 == subtract(1000, 900));
 }
 
 void test_multiply(void) {
   CU_ASSERT(0 == multiply(1, 0));
   
-  /* Dummy fail*/
-  CU_ASSERT(2 == multiply(2, 5));
+  CU_ASSERT(10 == multiply(2, 5));
 }
 
 void test_divide(void) {
   CU_ASSERT(0 == divide(1, 0));
   
-  /* Dummy fail*/
-  CU_ASSERT(3 == divide(2, 2));
+  CU_ASSERT(1 == divide(2, 2));
 }
 
 void test_modulo(void) {
   CU_ASSERT(0 == modulo(1, 0));
   
-  /* Dummy fail*/
-  CU_ASSERT(3 == modulo(2, 2));
+  CU_ASSERT(0 == modulo(2, 2));
 }
 
 void test_factorial(void) {
   CU_ASSERT(1 == factorial(0));
   
-  /* Dummy fail*/
-  CU_ASSERT(3 == factorial(2));
+  CU_ASSERT(2 == factorial(2));
 }
 
 void test_power(void) {
   CU_ASSERT(9 == power(3, 2));
   
-  /* Dummy fail*/
-  CU_ASSERT(21 == power(4, 3));
+  CU_ASSERT(64 == power(4, 3));
 }
 
 void test_antilog(void) {
   CU_ASSERT(100 == antilog(2));
   
-  /* Dummy fail*/
-  CU_ASSERT(1000 == antilog(1));
+  CU_ASSERT(10 == antilog(1));
 }
 
 void test_base10log(void) {
   CU_ASSERT(1 == base10log(10));
   
-  /* Dummy fail*/
-  CU_ASSERT(4 == base10log(1));
+  CU_ASSERT(0 == base10log(1));
 }
 
 void test_naturallog(void) {
   CU_ASSERT(0 == naturallog(1));
   
-  /* Dummy fail*/
-  CU_ASSERT(10 == naturallog(2));
+  CU_ASSERT(0 == naturallog(0));
 }
 
 void test_modulus(void) {
   CU_ASSERT(5 == modulus(-5));
   
-  /* Dummy fail*/
-  CU_ASSERT(-3 == modulus(4));
+  CU_ASSERT(4 == modulus(4));
 }
 
 void test_inverse(void) {
   CU_ASSERT(1 == inverse(1));
   
-  /* Dummy fail*/
-  CU_ASSERT(5 == inverse(0));
+  CU_ASSERT(0 == inverse(0));
 }
 
 void test_root(void) {
   CU_ASSERT(3 == root(9));
   
-  /* Dummy fail*/
-  CU_ASSERT(2 == root(-4));
+  CU_ASSERT(0 == root(-4));
 }
 
 void test_square(void) {
   CU_ASSERT(49 == square(7));
   
-  /* Dummy fail*/
-  CU_ASSERT(-81 == root(-9));
+  CU_ASSERT(81 == square(-9));
 }
 
 void test_cube(void) {
   CU_ASSERT(64 == cube(4));
   
-  /* Dummy fail*/
-  CU_ASSERT(27 == cube(-3));
+  CU_ASSERT(-27 == cube(-3));
 }
