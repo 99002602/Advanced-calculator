@@ -1,6 +1,6 @@
 # Design
 
-* Contains the associated diagram(s) which is a model of the project.
+* Contains the model of the project expressed as diagram(s).
 
 ## Tools used
 
