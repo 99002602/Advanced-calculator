@@ -25,12 +25,11 @@ all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out -lm
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out -lm
+	./$(PROJECT_OUTPUT).out
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit -lm
 	./$(TEST_OUTPUT)
-	./$(TEST_OUTPUT).out -lm
 
 
 
