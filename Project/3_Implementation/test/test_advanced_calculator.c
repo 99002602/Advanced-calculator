@@ -89,9 +89,9 @@ void test_divide(void) {
 }
 
 void test_modulo(void) {
-  CU_ASSERT(0 == modulo(1, 0));
+  CU_ASSERT(2 == modulo(5, 3));
   
-  CU_ASSERT(0 == modulo(2, 2));
+  CU_ASSERT(1 == modulo(4, 3));
 }
 
 void test_factorial(void) {
