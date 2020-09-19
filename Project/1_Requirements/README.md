@@ -2,7 +2,7 @@
 
 ### High level requirements
 
-| ID  | High level requirements 
+| ID  | Description 
 | ----| ------------------------
 | H01 | Basic operations        
 | H02 | Advanced operations     
@@ -11,7 +11,7 @@
 
 ### Low level requirements
 
-| ID    | Low level requirements |
+| ID    | Description |
 |-------|------------------------|
 | L01   | Codes for addition, subtraction, multiplication and division |
 | L02   | Codes for modulo, factorial, power, antilogarithm, common logarithm, natural logarithm, absolute value, inverse, square root, square & cube |
