@@ -1,3 +1,3 @@
 ## Flowchart of Advanced Calculator
 
-![Flowchart](/Project/Images/Flowchart.JPG)
+![Flowchart](/Project/6_Images/Flowchart.JPG)
