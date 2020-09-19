@@ -30,7 +30,7 @@ run:$(PROJECT_NAME)
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
 	./$(TEST_OUTPUT)
-	./$(TEST_OUTPUT) -lm
+	./$(TEST_OUTPUT)
 
 
 
