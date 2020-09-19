@@ -2,7 +2,7 @@
 
 Project Started on: 18 September, 2020
 
-Project Submitted on:
+Project Submitted on: 19 September, 2020
 
 ## Problem statement
 
