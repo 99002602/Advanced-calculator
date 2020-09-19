@@ -4,5 +4,5 @@
 
 ## Tools used
 
-* [Named Link](https://app.diagrams.net/ "Draw.io")
-* [Named Link](https://creately.com// "Creately")
+* [Draw.io](https://app.diagrams.net/ "Draw.io")
+* [Creately](https://creately.com// "Creately")
