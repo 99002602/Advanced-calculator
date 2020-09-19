@@ -5,12 +5,12 @@ PROJECT_NAME = Calculator
 BUILD = build
 
 # All source code files
-SRC = Project/Implementation/main.c\
-Project/Implementation/src/advanced_calculator.c\
+SRC = main.c\
+src/advanced_calculator.c\
 
 # All test source files
-TEST_SRC = Project/Implementation/src/advanced_calculator.c\
-Project/Implementation/test/test_advanced_calculator.c
+TEST_SRC = src/advanced_calculator.c\
+test/test_advanced_calculator.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
